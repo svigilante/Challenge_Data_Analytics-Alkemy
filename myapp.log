@@ -1,0 +1,68 @@
+2022-02-19 18:20:09,877:DEBUG:Inicio del programa
+2022-02-19 18:20:09,877:DEBUG:Creando directorios: /Users/santi/Desktop/Alkemy/Alkemy-Python/first_PythonChallenge/museos/2022-February
+2022-02-19 18:20:09,878:DEBUG:Haciendo request para conseguir csv de museos
+2022-02-19 18:20:09,921:DEBUG:Starting new HTTPS connection (1): datos.gob.ar:443
+2022-02-19 18:20:12,577:DEBUG:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_4207def0-2ff7-41d5-9095-d42ae8207a5d HTTP/1.1" 200 8914
+2022-02-19 18:20:12,610:DEBUG:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+2022-02-19 18:20:14,364:DEBUG:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museo.csv HTTP/1.1" 200 307629
+2022-02-19 18:20:14,940:DEBUG:Guardando archivo csv de museos
+2022-02-19 18:20:14,941:DEBUG:Creando directorios: /Users/santi/Desktop/Alkemy/Alkemy-Python/first_PythonChallenge/cines/2022-February
+2022-02-19 18:20:14,941:DEBUG:Haciendo request para conseguir csv de cines
+2022-02-19 18:20:14,944:DEBUG:Starting new HTTPS connection (1): datos.gob.ar:443
+2022-02-19 18:20:16,960:DEBUG:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_392ce1a8-ef11-4776-b280-6f1c7fae16ae HTTP/1.1" 200 10256
+2022-02-19 18:20:16,968:DEBUG:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+2022-02-19 18:20:18,687:DEBUG:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/392ce1a8-ef11-4776-b280-6f1c7fae16ae/download/cine.csv HTTP/1.1" 200 96427
+2022-02-19 18:20:18,726:DEBUG:Guardando archivo csv de cines
+2022-02-19 18:20:18,726:DEBUG:Creando directorios: /Users/santi/Desktop/Alkemy/Alkemy-Python/first_PythonChallenge/bibliotecas/2022-February
+2022-02-19 18:20:18,727:DEBUG:Haciendo request para conseguir csv de bibliotecas
+2022-02-19 18:20:18,731:DEBUG:Starting new HTTPS connection (1): datos.gob.ar:443
+2022-02-19 18:20:24,507:DEBUG:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_01c6c048-dbeb-44e0-8efa-6944f73715d7 HTTP/1.1" 200 10277
+2022-02-19 18:20:24,516:DEBUG:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+2022-02-19 18:20:26,371:DEBUG:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 511527
+2022-02-19 18:20:27,469:DEBUG:Guardando archivo csv de bibliotecas
+2022-02-19 18:20:27,469:DEBUG:Creando dataframe a partir de csv de museos
+2022-02-19 18:20:27,483:DEBUG:Creando dataframe a partir de csv de cines
+2022-02-19 18:20:27,489:DEBUG:Creando dataframe a partir de csv de bibliotecas
+2022-02-19 18:20:27,503:DEBUG:Filtrando dataframe de museos y renombrando columnas
+2022-02-19 18:20:27,505:DEBUG:Filtrando dataframe de cines y renombrando columnas
+2022-02-19 18:20:27,506:DEBUG:Filtrando dataframe de bibliotecas y renombrando columnas
+2022-02-19 18:20:27,509:DEBUG:Creando dataframe de Tabla Unica
+2022-02-19 18:20:27,511:DEBUG:Creando dataframe de Tabla 2
+2022-02-19 18:20:27,542:DEBUG:Creando dataframe de Tabla 3
+2022-02-19 18:20:27,555:DEBUG:Creando engine para Base de Datos
+2022-02-19 18:20:27,634:DEBUG:Actualizando Base de Datos...
+2022-02-19 18:20:28,049:DEBUG:Fin del Programa
+2022-02-19 18:21:27,194:DEBUG:Inicio del programa
+2022-02-19 18:21:27,194:DEBUG:Las carpetas necesarias para museos ya estan presentes
+2022-02-19 18:21:27,194:DEBUG:Haciendo request para conseguir csv de museos
+2022-02-19 18:21:27,211:DEBUG:Starting new HTTPS connection (1): datos.gob.ar:443
+2022-02-19 18:21:29,039:DEBUG:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_4207def0-2ff7-41d5-9095-d42ae8207a5d HTTP/1.1" 200 8925
+2022-02-19 18:21:29,048:DEBUG:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+2022-02-19 18:21:30,780:DEBUG:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museo.csv HTTP/1.1" 200 None
+2022-02-19 18:21:31,310:DEBUG:Guardando archivo csv de museos
+2022-02-19 18:21:31,310:DEBUG:Las carpetas necesarias para cines ya estan presentes
+2022-02-19 18:21:31,310:DEBUG:Haciendo request para conseguir csv de cines
+2022-02-19 18:21:31,314:DEBUG:Starting new HTTPS connection (1): datos.gob.ar:443
+2022-02-19 18:21:33,149:DEBUG:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_392ce1a8-ef11-4776-b280-6f1c7fae16ae HTTP/1.1" 200 10258
+2022-02-19 18:21:33,157:DEBUG:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+2022-02-19 18:21:34,993:DEBUG:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/392ce1a8-ef11-4776-b280-6f1c7fae16ae/download/cine.csv HTTP/1.1" 200 96427
+2022-02-19 18:21:35,037:DEBUG:Guardando archivo csv de cines
+2022-02-19 18:21:35,037:DEBUG:Las carpetas necesarias para bibliotecas ya estan presentes
+2022-02-19 18:21:35,038:DEBUG:Haciendo request para conseguir csv de bibliotecas
+2022-02-19 18:21:35,040:DEBUG:Starting new HTTPS connection (1): datos.gob.ar:443
+2022-02-19 18:21:36,910:DEBUG:https://datos.gob.ar:443 "GET /dataset/cultura-mapa-cultural-espacios-culturales/archivo/cultura_01c6c048-dbeb-44e0-8efa-6944f73715d7 HTTP/1.1" 200 10289
+2022-02-19 18:21:36,918:DEBUG:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+2022-02-19 18:21:38,556:DEBUG:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 511527
+2022-02-19 18:21:39,591:DEBUG:Guardando archivo csv de bibliotecas
+2022-02-19 18:21:39,591:DEBUG:Creando dataframe a partir de csv de museos
+2022-02-19 18:21:39,604:DEBUG:Creando dataframe a partir de csv de cines
+2022-02-19 18:21:39,611:DEBUG:Creando dataframe a partir de csv de bibliotecas
+2022-02-19 18:21:39,625:DEBUG:Filtrando dataframe de museos y renombrando columnas
+2022-02-19 18:21:39,627:DEBUG:Filtrando dataframe de cines y renombrando columnas
+2022-02-19 18:21:39,629:DEBUG:Filtrando dataframe de bibliotecas y renombrando columnas
+2022-02-19 18:21:39,631:DEBUG:Creando dataframe de Tabla Unica
+2022-02-19 18:21:39,633:DEBUG:Creando dataframe de Tabla 2
+2022-02-19 18:21:39,660:DEBUG:Creando dataframe de Tabla 3
+2022-02-19 18:21:39,668:DEBUG:Creando engine para Base de Datos
+2022-02-19 18:21:39,710:DEBUG:Actualizando Base de Datos...
+2022-02-19 18:21:40,119:DEBUG:Fin del Programa
